@@ -1,0 +1,53 @@
+body{
+    background: radial-gradient(circle, rgba(160,213,247,1) 0%, rgba(255,210,252,1) 100%);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.keys{
+    display: flex;
+    flex-direction: row; 
+    gap: 40px;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    
+}
+
+.key{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: solid 1px rgb(109, 10, 134);
+    border-radius: 25px;
+    height: 70px;
+    width: 70px;
+    transition: all 0.4s;
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color: blueviolet;
+    box-shadow: 0 0 10px black;
+}
+
+kbd{
+    margin: auto;
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(109, 10, 134);
+
+}
+
+span{
+    margin: auto;
+    font-size: large;
+    font-weight:lighter;
+    color: rgb(109, 10, 134);
+    font-style: italic;
+}
+
